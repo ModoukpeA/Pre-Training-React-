@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./index.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="main-content">
+    <div class="header">
+        <h2>React native</h2>
+        <ul>
+            <li id="aproposbtn"><a href="#target">A propos</a></li>
+            <li id="teambtn"><a href="#_team">Notre équipe</a></li>
+            <li id="contactbtn"><a href="#_contact">Contactez-nous </a></li>
+        </ul>
+        <div onmouseenter="onSearchIconClick()" onmouseleave="onSearchIconClick()" class="searchbar-container">
+            <input class="search-bar" type="text" placeholder="rechercher ..."/>
+        </div>
+        <button class="submit-btn">s'inscrire</button>
+    </div>
+
+    <div id="#target" class="posts">
+        <section class="jumbotron">
+            <div class="jumbotron-txt">
+                <div class="jumbotron-paragraph">
+                    <h1>React native</h1>
+                    <p>
+                        React Native combines the best parts of native development with React, a best-in-class
+                        JavaScript library for building user interfaces.
+                    </p>
+                    <a href="#"><h4>show more</h4></a>
+                </div>
+            </div>
+            <img class="jumbotron-img" src="./assets/header-background.png"/>
+        </section>
+        <section class="a-propos">
+           <div class="a-propos-header">
+               <span></span>
+               <div class="star-six"></div>
+               <span></span>
+           </div>
+            <div class="a-propos-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium culpa eaque fugiat illo ipsa ipsam iure laborum mollitia nulla obcaecati odio perferendis quidem ratione recusandae rem, rerum, sit unde, veniam!
+                </p>
+            </div>
+        </section>
+        <section class="stats">
+            <div class="stat">
+                <img class="stat-img" src="./assets/users.png"/>
+                <p>7 utilisateurs</p>
+            </div>
+            <div class="stat">
+                <img class="stat-img" src="./assets/globe.png"/>
+                <p>1 pays d'Afrique</p>
+            </div>
+            <div class="stat">
+                <img class="stat-img" src="./assets/share.png"/>
+                <p> 3 partages</p>
+            </div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="post">
+                    <img class="func-img" src="./assets/func1.png"/>
+                    <div class="post-content">
+                        <h2>Fonctionnalité un</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores iure, temporibus omnis
+                            sunt ratione ipsum error doloribus vel doloremque velit, itaque nesciunt. Dolor obcaecati
+                            ullam ducimus fugit quam eligendi blanditiis?
+                        </p>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="func-img" src="./assets/func2.png"/>
+                    <div class="post-content">
+                        <h2>Fonctionnalité deux</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores iure, temporibus omnis
+                            sunt ratione ipsum error doloribus vel doloremque velit, itaque nesciunt. Dolor obcaecati
+                            ullam ducimus fugit quam eligendi blanditiis?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="post">
+                    <img class="func-img" src="./assets/func3.png"/>
+                    <div class="post-content">
+                        <h2>Fonctionnalité trois</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores iure, temporibus omnis
+                            sunt ratione ipsum error doloribus vel doloremque velit, itaque nesciunt. Dolor obcaecati
+                            ullam ducimus fugit quam eligendi blanditiis?
+                        </p>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="func-img" src="./assets/func5.png"/>
+                    <div class="post-content">
+                        <h2>Fonctionnalité quatre</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores iure, temporibus omnis
+                            sunt ratione ipsum error doloribus vel doloremque velit, itaque nesciunt. Dolor obcaecati
+                            ullam ducimus fugit quam eligendi blanditiis?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="_team" class="team-members-container">
+           <div class="tm-image">
+               <h4>Notre équipe</h4>
+               <img class="team-image" src="./assets/team.png" alt="">
+           </div>
+            <div class="members-container">
+                <div class="tm-row">
+                    <div class="team-member">
+                        <span class="tm-avatar">
+                            <img src="./assets/ramisch.jpg" alt="">
+                        </span>
+                        <h4>L . Fabrice</h4>
+                        <p>Designer / Android developer</p>
+                        <div class="overlay">
+                           <div class="overlay-icons">
+                               <i class="fa fa-facebook"></i>
+                               <i class="fa fa-twitter"></i>
+                               <i class="fa fa-instagram"></i>
+                               <i class="fa fa-linkedin"></i>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <span class="tm-avatar">
+                            <img src="./assets/modupke.jpg" alt="">
+                        </span>
+                        <h4>F . Modoupkè</h4>
+                        <p>Android developer</p>
+                        <div class="overlay">
+                            <div class="overlay-icons">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tm-row">
+                    <div class="team-member">
+                        <span class="tm-avatar">
+                            <img src="./assets/glawdys.jpg" alt="">
+                        </span>
+                        <h4>F . Glawdys</h4>
+                        <p>Android developer</p>
+                        <div class="overlay">
+                            <div class="overlay-icons">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <span class="tm-avatar">
+                            <img src="./assets/fabrice.jpeg" alt="">
+                        </span>
+                        <h4>F . Ramish</h4>
+                        <p>Android developer</p>
+                        <div class="overlay">
+                            <div class="overlay-icons">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="#_contact" class="contact-container">
+            <div class="contact-header">
+                <h1 class="contactus-title">Contactez-nous</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda dolor dolores eligendi eos
+                    explicabo fugit id in incidunt </p>
+            </div>
+            <div class="contact-form-row">
+                <div class="contact-image-container">
+                    <img class="contact-img" src="./assets/contact.png" alt="">
+                </div>
+                <div class="contact-form-container">
+                    <input placeholder="Username" class="identifiants" type="text">
+                    <input placeholder="Email"  class="identifiants" type="text">
+                    <textarea class="request-text"  rows="4" cols="46"></textarea>
+                    <button class="contact-form-btn">soumettre</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
+<div class="footer">
+    <p>
+        Réalisé par Team EdTech @2020
+    </p>
+</div>
+</body>
+</html>
